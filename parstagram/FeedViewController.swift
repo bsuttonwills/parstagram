@@ -24,6 +24,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
 
         commentBar.inputTextView.placeholder = "Add a comment..."
+        commentBar.sendButton.title = "Post"
         commentBar.delegate = self
         
         tableView.delegate = self
