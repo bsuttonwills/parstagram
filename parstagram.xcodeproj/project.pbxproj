@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5206C0253E1754004E5564 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206BF253E1754004E5564 /* CommentCell.swift */; };
 		1BB91E6E2533E0CB005B1CFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB91E6D2533E0CB005B1CFD /* AppDelegate.swift */; };
 		1BB91E702533E0CB005B1CFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB91E6F2533E0CB005B1CFD /* SceneDelegate.swift */; };
 		1BB91E752533E0CB005B1CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB91E732533E0CB005B1CFD /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		07C8472827FE14D49FF658F1 /* Pods_parstagram_parstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parstagram_parstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5206BF253E1754004E5564 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		1BB91E6A2533E0CB005B1CFD /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB91E6D2533E0CB005B1CFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BB91E6F2533E0CB005B1CFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				1BB91EBE2534047E005B1CFD /* FeedViewController.swift */,
 				1BB91EC325353E75005B1CFD /* CameraViewController.swift */,
 				1BB91EC825355FA5005B1CFD /* PostCell.swift */,
+				1B5206BF253E1754004E5564 /* CommentCell.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				1BB91EBF2534047E005B1CFD /* FeedViewController.swift in Sources */,
 				1BB91E702533E0CB005B1CFD /* SceneDelegate.swift in Sources */,
 				1BB91EC925355FA5005B1CFD /* PostCell.swift in Sources */,
+				1B5206C0253E1754004E5564 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
